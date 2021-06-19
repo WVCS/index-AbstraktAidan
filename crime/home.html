@@ -45,7 +45,43 @@
       color: White;
       
     }
-      
+    .ticketitem {
+      background-color: #808080;
+      padding-left: 5%;
+      padding-right: 5%;
+      padding-bottom: 7%;
+    }
+
+    .ticketwrapper{
+      display: grid;
+      grid-gap: 10px;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-auto-rows: 1fr;
+      border: none;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
+    
+    .buynow{
+      background-color: #808080;
+      border: none;
+      padding: 10px 15px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 16px;
+      transition-duration: 0.4s;
+      cursor: pointer;
+      font-family: 'Bebas Neue', cursive;
+      letter-spacing: 2.5px;
+      font-weight: 20;
+      border-radius: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+    }
+
+  
     </style>
     </head>
     <body>
@@ -76,9 +112,25 @@
     </div>
 
     </body>
+    
+    <h2> PRICING </h2>
+      <div class="ticketwrapper">
+        <div class="ticketitem">
+          <h2> An Hour</h2>
+          <p> $50 </p>
 
-                                                                                                       
-                                                                                                       
+          <button class="buynow"> Buy Now </button>
+        </div>
+        <div class="ticketitem"> 
+          <h2> Per class </h2>
+          <p> $499</p>
+
+          <button class="buynow"> Buy Now </button>
+        </div>
+      </div>
+
+
+
       
     
     
